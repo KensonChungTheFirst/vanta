@@ -362,14 +362,15 @@ section.wm {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ffffff;
+  min-height: calc(84vh - 100px);
+  color: white;
 }
 section.wm.dark-text {
   color: #2b2928;
 }
 @media (max-width: 727px) {
-  section {
-    padding: 30px 15px;
+  section.wm {
+    min-height: calc(70vh - 40px);
   }
 }
 h1 {
