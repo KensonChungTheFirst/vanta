@@ -595,6 +595,7 @@ class Birds extends VantaBase {
   static initClass() {
     this.prototype.defaultOptions = {
       // Beige: 0xf8e8d0, 0xf50000, 0xcfcf1d
+      backgroundColor: 'transparent', // 0x202428
       color1: 0xff0000, // 0xf50000 # 0xfa9898
       color2: 0x00d1ff, // 0xcfcf1d # 0x8c4646
       colorMode: 'varianceGradient',
